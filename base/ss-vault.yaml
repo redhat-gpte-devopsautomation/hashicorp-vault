@@ -84,6 +84,8 @@ spec:
           value: https://$(HOSTNAME).vault-internal:8201
         - name: HOME
           value: /home/vault
+        - name: VAULT_CLI_NO_COLOR
+          value: "1"
         image: hashicorp/vault:1.12.1
         imagePullPolicy: IfNotPresent
         lifecycle:

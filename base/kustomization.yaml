@@ -12,3 +12,4 @@ resources:
 - svc-vault-internal.yaml
 - svc-vault.yaml
 - cm-vault-config.yaml
+- rt-vault.yaml

@@ -85,7 +85,7 @@ spec:
             fieldRef:
               apiVersion: v1
               fieldPath: metadata.name
-        image: hashicorp/vault-k8s:1.1.0
+        image: registry.connect.redhat.com/hashicorp/vault-k8s:1.1.0-ubi
         imagePullPolicy: IfNotPresent
         livenessProbe:
           failureThreshold: 2
